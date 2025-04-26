@@ -6,8 +6,8 @@ import HeroBanner from "./components/HeroBanner"
 import OrganizationSidebar from "./components/OrganizationSidebar"
 import NewsSection from "./components/NewsSection"
  import InternationalSection from "./components/InternationalSection"
-// import CampusShowcase from "./components/CampusShowcase"
-// import Footer from "./components/Footer"
+import CampusShowcase from "./components/CampusShowcase"
+import Footer from "./components/Footer"
 import "./App.css"
 
 function App() {
@@ -30,13 +30,13 @@ function App() {
               <NewsSection />
               <div className="two-column-grid">
                 <InternationalSection />
-                {/* <CampusShowcase /> */}
+                <CampusShowcase />
               </div>
             </div>
           </div>
         </main>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   )
