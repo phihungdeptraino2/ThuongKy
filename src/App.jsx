@@ -3,7 +3,7 @@ import TopNavba from "./components/TopNavbar"
 import MainHeader from "./components/MainHeader"
 import MainNavbar from "./components/MainNavbar"
 import HeroBanner from "./components/HeroBanner"
-// import OrganizationSidebar from "./components/OrganizationSidebar"
+import OrganizationSidebar from "./components/OrganizationSidebar"
 // import NewsSection from "./components/NewsSection"
 // import InternationalSection from "./components/InternationalSection"
 // import CampusShowcase from "./components/CampusShowcase"
@@ -21,19 +21,19 @@ function App() {
         <main className="main-content">
           <HeroBanner />
 
-          {/* <div className="container content-grid">
+          <div className="container content-grid">
             <div className="sidebar">
               <OrganizationSidebar />
             </div>
 
-            <div className="main-column">
+            {/* <div className="main-column">
               <NewsSection />
               <div className="two-column-grid">
                 <InternationalSection />
                 <CampusShowcase />
               </div>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
         </main>
 
         {/* <Footer /> */}
