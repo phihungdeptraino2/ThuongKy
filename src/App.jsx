@@ -4,8 +4,8 @@ import MainHeader from "./components/MainHeader"
 import MainNavbar from "./components/MainNavbar"
 import HeroBanner from "./components/HeroBanner"
 import OrganizationSidebar from "./components/OrganizationSidebar"
-// import NewsSection from "./components/NewsSection"
-// import InternationalSection from "./components/InternationalSection"
+import NewsSection from "./components/NewsSection"
+ import InternationalSection from "./components/InternationalSection"
 // import CampusShowcase from "./components/CampusShowcase"
 // import Footer from "./components/Footer"
 import "./App.css"
@@ -26,13 +26,13 @@ function App() {
               <OrganizationSidebar />
             </div>
 
-            {/* <div className="main-column">
+            <div className="main-column">
               <NewsSection />
               <div className="two-column-grid">
                 <InternationalSection />
-                <CampusShowcase />
+                {/* <CampusShowcase /> */}
               </div>
-            </div> */}
+            </div>
           </div>
         </main>
 
