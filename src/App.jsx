@@ -2,7 +2,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 import TopNavba from "./components/TopNavbar"
 import MainHeader from "./components/MainHeader"
 import MainNavbar from "./components/MainNavbar"
-// import HeroBanner from "./components/HeroBanner"
+import HeroBanner from "./components/HeroBanner"
 // import OrganizationSidebar from "./components/OrganizationSidebar"
 // import NewsSection from "./components/NewsSection"
 // import InternationalSection from "./components/InternationalSection"
@@ -18,10 +18,10 @@ function App() {
         <MainHeader />
         <MainNavbar />
 
-        {/* <main className="main-content">
+        <main className="main-content">
           <HeroBanner />
 
-          <div className="container content-grid">
+          {/* <div className="container content-grid">
             <div className="sidebar">
               <OrganizationSidebar />
             </div>
@@ -33,8 +33,8 @@ function App() {
                 <CampusShowcase />
               </div>
             </div>
-          </div>
-        </main> */}
+          </div> */}
+        </main>
 
         {/* <Footer /> */}
       </div>
