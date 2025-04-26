@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom"
 import TopNavba from "./components/TopNavbar"
-// import MainHeader from "./components/MainHeader"
+import MainHeader from "./components/MainHeader"
 // import MainNavbar from "./components/MainNavbar"
 // import HeroBanner from "./components/HeroBanner"
 // import OrganizationSidebar from "./components/OrganizationSidebar"
@@ -15,8 +15,8 @@ function App() {
     <Router>
       <div className="page-container">
         <TopNavba />
-        {/* <MainHeader />
-        <MainNavbar />
+        <MainHeader />
+        {/* <MainNavbar />
 
         <main className="main-content">
           <HeroBanner />
