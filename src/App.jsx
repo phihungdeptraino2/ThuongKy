@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from "react-router-dom"
 import TopNavba from "./components/TopNavbar"
 import MainHeader from "./components/MainHeader"
-// import MainNavbar from "./components/MainNavbar"
+import MainNavbar from "./components/MainNavbar"
 // import HeroBanner from "./components/HeroBanner"
 // import OrganizationSidebar from "./components/OrganizationSidebar"
 // import NewsSection from "./components/NewsSection"
@@ -16,9 +16,9 @@ function App() {
       <div className="page-container">
         <TopNavba />
         <MainHeader />
-        {/* <MainNavbar />
+        <MainNavbar />
 
-        <main className="main-content">
+        {/* <main className="main-content">
           <HeroBanner />
 
           <div className="container content-grid">
@@ -34,9 +34,9 @@ function App() {
               </div>
             </div>
           </div>
-        </main>
+        </main> */}
 
-        <Footer /> */}
+        {/* <Footer /> */}
       </div>
     </Router>
   )
